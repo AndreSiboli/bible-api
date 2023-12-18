@@ -10,6 +10,7 @@ import search from './routes/search';
 import random from './routes/random';
 import addVerse from './routes/insert';
 
+//App
 const app = express();
 
 app.use(express.json());
