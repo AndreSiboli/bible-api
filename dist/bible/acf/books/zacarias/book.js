@@ -1,0 +1,18 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const zc1_1 = require("./chapters/zc1");
+const zc2_1 = require("./chapters/zc2");
+const zc3_1 = require("./chapters/zc3");
+const zc4_1 = require("./chapters/zc4");
+const zc5_1 = require("./chapters/zc5");
+const zc6_1 = require("./chapters/zc6");
+const zc7_1 = require("./chapters/zc7");
+const zc8_1 = require("./chapters/zc8");
+const zc9_1 = require("./chapters/zc9");
+const zc10_1 = require("./chapters/zc10");
+const zc11_1 = require("./chapters/zc11");
+const zc12_1 = require("./chapters/zc12");
+const zc13_1 = require("./chapters/zc13");
+const zc14_1 = require("./chapters/zc14");
+const book = [zc1_1.zc1, zc2_1.zc2, zc3_1.zc3, zc4_1.zc4, zc5_1.zc5, zc6_1.zc6, zc7_1.zc7, zc8_1.zc8, zc9_1.zc9, zc10_1.zc10, zc11_1.zc11, zc12_1.zc12, zc13_1.zc13, zc14_1.zc14];
+exports.default = book;

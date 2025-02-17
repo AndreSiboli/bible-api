@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const gl1_1 = require("./chapters/gl1");
+const gl2_1 = require("./chapters/gl2");
+const gl3_1 = require("./chapters/gl3");
+const gl4_1 = require("./chapters/gl4");
+const gl5_1 = require("./chapters/gl5");
+const gl6_1 = require("./chapters/gl6");
+const book = [gl1_1.gl1, gl2_1.gl2, gl3_1.gl3, gl4_1.gl4, gl5_1.gl5, gl6_1.gl6];
+exports.default = book;

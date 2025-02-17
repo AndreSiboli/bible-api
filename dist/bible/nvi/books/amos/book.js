@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const am1_1 = require("./chapters/am1");
+const am2_1 = require("./chapters/am2");
+const am3_1 = require("./chapters/am3");
+const am4_1 = require("./chapters/am4");
+const am5_1 = require("./chapters/am5");
+const am6_1 = require("./chapters/am6");
+const am7_1 = require("./chapters/am7");
+const am8_1 = require("./chapters/am8");
+const am9_1 = require("./chapters/am9");
+const book = [am1_1.am1, am2_1.am2, am3_1.am3, am4_1.am4, am5_1.am5, am6_1.am6, am7_1.am7, am8_1.am8, am9_1.am9];
+exports.default = book;
