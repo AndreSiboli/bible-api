@@ -13,7 +13,7 @@ router.post('/:version', async (req, res) => {
         if (typeof version !== 'string' || !version) throw new SyntaxError('version');
         if (typeof text !== 'string' || !text) throw new SyntaxError('text');
 
-        const data = await search(req.body);
+        const data = await search({ version, text });
 
         if (!data) throw new Error();
 

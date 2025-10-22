@@ -24,7 +24,7 @@ router.post('/:version', (req, res) => __awaiter(void 0, void 0, void 0, functio
             throw new SyntaxError('version');
         if (typeof text !== 'string' || !text)
             throw new SyntaxError('text');
-        const data = yield (0, search_1.search)(req.body);
+        const data = yield (0, search_1.search)({ version, text });
         if (!data)
             throw new Error();
         res.json({
